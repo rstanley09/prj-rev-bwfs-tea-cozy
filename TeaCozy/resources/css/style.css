@@ -1,0 +1,150 @@
+/* Universal */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+}
+
+/* Header */
+header {
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  z-index: 1;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  background-color: Black;
+}
+
+header img {
+  height: 50px;
+}
+
+header .logo {
+  margin-left: 10px;
+  width: 70%;
+}
+
+header nav {
+  display: inline-block;
+  padding: 20px 10px;
+  width: 30%;
+  text-align: right;
+  margin-right: 10px;
+}
+
+header a {
+  color: seashell;
+  opacity: .9;
+  text-decoration: underline;
+  margin-right: 20px;
+}
+
+/* Mission */
+.image {
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.our-mission {
+  width: 1200px;
+  background-color: Black;
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+
+.our-mission h2, h4 {
+  opacity: .9;
+  margin: 20px;
+}
+
+/* Featured Tea */
+.featured-teas {
+  width: 1000px;
+  display: block;
+  align-items: center;
+  margin: auto;
+}
+
+.featured-teas h2, h4 {
+  display: flex;
+  justify-content: center;
+  opacity: .9;
+  text-align: center;
+}
+
+.features {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  height: 530px;
+  margin: auto;
+}
+
+.features img {
+  height: 200px;
+  width: 300px;
+  padding: 15px;
+}
+
+.features h4 {
+  margin-top: 10px;
+  opacity: .9;
+}
+
+/* Locations */
+.locations {
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  display: block;
+  margin: auto;
+  margin-top: 75px;
+}
+
+.locations-text h2 {
+  display: flex;
+  width 1200px;
+  text-align: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.stores {
+  flex-wrap: wrap;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.stores .store-location {
+  width: 300px;
+  background-color: Black;
+  display: inline-block;
+  height: 230px;
+}
+
+/* Footer */
+footer {
+  opacity: .9;
+  height: 200px;
+}
+
+footer h2, h5 {
+  text-align: center;
+}
+
+footer h5 .copyright {
+  text-align: left;
+  margin-left: 10px;
+}
